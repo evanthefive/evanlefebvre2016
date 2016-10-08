@@ -13,7 +13,27 @@ header {
 	  padding-top: 40px;
     background-image: url(../imgs/masthead.jpg);
 }
-
+/*
+h1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size:50px;
+	color:#fff;
+	width:100%;
+	text-align:center;
+}
+&:nth-of-type(1){
+	.paralax-1{
+		 height:100%;
+		 width:100%;
+		 position:relative;
+		 overflow:hidden;
+		 .new-paralax{
+			 z-index:-100000;
+			 transform:translateZ(-8000px)
+*/
 .navigation {
   margin-right: 10%;
 }
@@ -36,6 +56,30 @@ h1 {
 	  color: #eee;
 	  font-weight: 800;
 	  font-size: 40px;
+}
+
+.section1 {
+    background-image: url(../imgs/section-g.jpg);
+	  height: 400px;
+		padding-top: 40px;
+}
+
+.section2 {
+    background-image: url(../imgs/section-h.jpg);
+	  height: 400px;
+		padding-top: 40px;
+}
+
+.section3 {
+    background-image: url(../imgs/section-i.jpg);
+	  height: 400px;
+		padding-top: 40px;
+}
+
+.section4 {
+    background-image: url(../imgs/section-j.jpg);
+	  height: 400px;
+		padding-top: 40px;
 }
 
 nav > ul {

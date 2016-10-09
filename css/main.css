@@ -4,6 +4,13 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 body {
 	  font-family: sans-serif;
     margin: 0;
@@ -15,13 +22,13 @@ body {
 
 header {
 	background: yellow;
-	    height: 500px;
-	    padding-top: 40px;
-	    background-image: url(../imgs/masthead.jpg);
-	    background-blend-mode: multiply;
-	    position: relative;
-	    z-index: 2;
-	    background-color: #fff;
+  height: 500px;
+  padding-top: 40px;
+  background-image: url(../imgs/masthead.jpg);
+  background-blend-mode: multiply;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
 }
 
 
@@ -48,13 +55,20 @@ h1 {
 	  margin-top: 120px;
 	  color: #eee;
 	  font-weight: 800;
-	  font-size: 40px;
+	  font-size: 3rem;
+}
+h2 {
+	font-weight: 400;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	color: #fff;
+	max-width: 400px;
+	text-shadow: 2px 2px 6px #000, 2px 2px 6px #000;
 }
 
 .section1 {
     background-image: url(../imgs/section-g.jpg);
 	  height: 250px;
-		padding-top: 40px;
 		background-blend-mode: multiply;
 		background-color: lightcyan;
 		position:relative;
@@ -63,20 +77,20 @@ h1 {
     background-attachment:fixed;    /* this keeps the background in place */
     background-size:100% 100%;
     background-repeat:no-repeat;
+		padding: 5%;
 }
 
 .section2 {
     background-image: url(../imgs/section-h.jpg);
 	  height: 400px;
-		padding-top: 40px;
 		background-blend-mode: multiply;
 		background-color: yellow;
+		padding: 5%;
 }
 
 .section3 {
-    background-image: url(../imgs/section-i.jpg);
+    background-image: url(../imgs/5ever.gif);
 		height: 250px;
-		padding-top: 40px;
 		background-blend-mode: multiply;
 		background-color: lightcyan;
 		position:relative;
@@ -85,14 +99,15 @@ h1 {
     background-attachment:fixed;    /* this keeps the background in place */
     background-size:100% 100%;
     background-repeat:no-repeat;
+		padding: 5%;
 }
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
 	  height: 400px;
-		padding-top: 40px;
 		background-blend-mode: multiply;
 		background-color: yellow;
+		padding: 5%;
 }
 
 @media screen and (max-width: 768px) {

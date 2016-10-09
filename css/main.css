@@ -8,32 +8,16 @@ body {
 }
 
 header {
-	  background: #181818;
-	  height: 400px;
-	  padding-top: 40px;
-    background-image: url(../imgs/masthead.jpg);
+	background: yellow;
+	    height: 500px;
+	    padding-top: 40px;
+	    background-image: url(../imgs/masthead.jpg);
+	    background-blend-mode: multiply;
+	    position: relative;
+	    z-index: 2;
+	    background-color: #fff;
 }
-/*
-h1{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	font-size:50px;
-	color:#fff;
-	width:100%;
-	text-align:center;
-}
-&:nth-of-type(1){
-	.paralax-1{
-		 height:100%;
-		 width:100%;
-		 position:relative;
-		 overflow:hidden;
-		 .new-paralax{
-			 z-index:-100000;
-			 transform:translateZ(-8000px)
-*/
+
 .navigation {
   margin-right: 10%;
 }
@@ -60,26 +44,46 @@ h1 {
 
 .section1 {
     background-image: url(../imgs/section-g.jpg);
-	  height: 400px;
+	  height: 250px;
 		padding-top: 40px;
+		background-blend-mode: multiply;
+		background-color: lightcyan;
+		position:relative;
+    z-index:1;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
 }
 
 .section2 {
     background-image: url(../imgs/section-h.jpg);
 	  height: 400px;
 		padding-top: 40px;
+		background-blend-mode: multiply;
+		background-color: yellow;
 }
 
 .section3 {
     background-image: url(../imgs/section-i.jpg);
-	  height: 400px;
+		height: 250px;
 		padding-top: 40px;
+		background-blend-mode: multiply;
+		background-color: lightcyan;
+		position:relative;
+    z-index:1;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
 }
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
 	  height: 400px;
 		padding-top: 40px;
+		background-blend-mode: multiply;
+		background-color: yellow;
 }
 
 nav > ul {

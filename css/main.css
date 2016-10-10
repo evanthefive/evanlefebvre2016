@@ -21,14 +21,13 @@ body {
 }
 
 header {
-	background: yellow;
   height: 500px;
   padding-top: 40px;
   background-image: url(../imgs/masthead.jpg);
   background-blend-mode: multiply;
   position: relative;
   z-index: 2;
-  background-color: #fff;
+  background-color: grey;
 }
 
 
@@ -52,7 +51,6 @@ header {
 h1 {
 	  text-align: center;
 	  width: 100%;
-	  margin-top: 120px;
 	  color: #eee;
 	  font-weight: 800;
 	  font-size: 3rem;
@@ -70,7 +68,7 @@ h2 {
     background-image: url(../imgs/section-g.jpg);
 	  height: 250px;
 		background-blend-mode: multiply;
-		background-color: lightcyan;
+		background-color: darkseagreen;
 		position:relative;
     z-index:1;
     width:100%;
@@ -84,29 +82,47 @@ h2 {
     background-image: url(../imgs/section-h.jpg);
 	  height: 400px;
 		background-blend-mode: multiply;
-		background-color: yellow;
+		background-color: grey;
 		padding: 5%;
 }
 
+.bucket1 {
+  background-image: url(../imgs/section-h.jpg);
+  width: 10%;
+  float: left;
+}
+.bucket2 {
+  background-image: url(../imgs/section-h.jpg);
+  width: 10%;
+  float: left;
+}
+.bucket3 {
+  background-image: url(../imgs/section-h.jpg);
+  width: 10%;
+  float: left;
+}
+.buckets {
+  margin: 1%;
+}
 .section3 {
     background-image: url(../imgs/5ever.gif);
-		height: 250px;
-		background-blend-mode: multiply;
-		background-color: lightcyan;
-		position:relative;
+    height: 250px;
+    background-blend-mode: multiply;
+    background-color: darkseagreen;
+    position:relative;
     z-index:1;
     width:100%;
     background-attachment:fixed;    /* this keeps the background in place */
     background-size:100% 100%;
     background-repeat:no-repeat;
-		padding: 5%;
+    padding: 5%;
 }
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
 	  height: 400px;
 		background-blend-mode: multiply;
-		background-color: yellow;
+		background-color: grey;
 		padding: 5%;
 }
 
@@ -115,4 +131,15 @@ h2 {
 	h1 {
 		  font-size: 26px;
 	}
+  .section3 {
+    background-image: url(../imgs/5ever.gif);
+    height: 250px;
+    background-blend-mode: multiply;
+    background-color: darkseagreen;
+    position: relative;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    padding: 5%;
 }

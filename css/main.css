@@ -41,7 +41,9 @@ header {
 .inner {
 	  max-width: 1000px;
 	  margin: 0 auto;
-	  padding: 34% 5% 0% 5%;
+	  padding-top: 7rem;
+    padding-left: 5%;
+    padding-right: 5%;
 	  position: relative;
 		text-align: center;
 }

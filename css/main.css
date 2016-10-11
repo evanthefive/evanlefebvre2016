@@ -48,11 +48,8 @@ header:hover {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
-  opacity: .5;
 }
-.inner:hover {
-  opacity: 1;
-}
+
 .icons {
   padding-top: 2rem;
 }

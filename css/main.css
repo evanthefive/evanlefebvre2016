@@ -22,8 +22,9 @@ body {
 
 header {
   height: 500px;
-  background-image: url(../imgs/masthead.jpg);
+  background-image: url(../imgs/lefride.gif);
   background-blend-mode: multiply;
+  background-size: 120% 100%;
   position: relative;
   z-index: 2;
   background-color: grey;
@@ -39,29 +40,58 @@ header {
 }
 
 .inner {
-	  max-width: 1000px;
-	  margin: 0 auto;
-	  padding-top: 7rem;
-    padding-left: 5%;
-    padding-right: 5%;
-	  position: relative;
-		text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
 }
-
+.icons {
+  padding-top: 2rem;
+}
+.icon1 {
+  z-index: 2;
+  margin-left: 15%;
+  max-width: 4rem;
+  float: left;
+  opacity: .5;
+}
+.icon1:hover {
+  opacity: 1;
+}
+.icon2 {
+  z-index: 2;
+  margin-right: 15%;
+  max-width: 4rem;
+  float: right;
+  opacity: .5;
+}
+.icon2:hover {
+  opacity: 1;
+}
+.insta {
+  width: 150%;
+}
+.vimeo {
+  width: 150%;
+}
+h5 {
+  display: none;
+}
 h1 {
-	  text-align: center;
 	  width: 100%;
 	  color: #eee;
 	  font-weight: 800;
 	  font-size: 3rem;
 }
 h2 {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1rem;
   text-align: left;
   letter-spacing: 1.25px;
   color: #fff;
-  max-width: 400px;
+  max-width: 440px;
   text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
 }
 h3 {
@@ -82,27 +112,33 @@ a {
   opacity: .75;
 }
 .section1 {
-    background-image: url(../imgs/section-g.jpg);
-	  height: 250px;
-		background-blend-mode: multiply;
-		background-color: darkseagreen;
-		position:relative;
-    z-index:1;
-    width:100%;
-    background-attachment:fixed;    /* this keeps the background in place */
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-		padding: 5%;
+  background-image: url(../imgs/masthead.jpg);
+  height: 250px;
+	background-blend-mode: multiply;
+	background-color: darkseagreen;
+	position:relative;
+  z-index:1;
+  width:100%;
+  background-attachment:fixed;    /* this keeps the background in place */
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+	padding: 5%;
 }
 
 .section2 {
-    background-image: url(../imgs/section-h.jpg);
-	  height: 400px;
-		background-blend-mode: multiply;
-		background-color: grey;
-		padding: 5%;
+  background-image: url(../imgs/section-h.jpg);
+  height: 100px;
+	background-blend-mode: multiply;
+	background-color: grey;
+	padding: 5%;
 }
-
+.sectionf {
+  background-image: url(../imgs/section-h.jpg);
+  height: 300px;
+	background-blend-mode: multiply;
+	background-color: grey;
+	padding: 5%;
+}
 .bucket1 {
   background-color: darkseagreen;
   background-image: url(../imgs/section-g.jpg);
@@ -155,10 +191,76 @@ a {
 @media screen and (max-width: 768px) {
 
 	h1 {
-		  font-size: 26px;
+		  font-size: 2.5rem;
 	}
-  h2 {
-    text-align: center;
+  .icons {
+    margin-top: 3rem;
+  }
+  .icon1 {
+    z-index: 2;
+    margin-left: 15%;
+    max-width: 4rem;
+    float: left;
+    opacity: .5;
+  }
+  .icon2 {
+    z-index: 2;
+    margin-right: 15%;
+    max-width: 4rem;
+    float: right;
+    opacity: .5;
+  }
+  .insta {
+    width: 100%;
+  }
+  .vimeo {
+    width: 100%;
+  }
+  .section1 {
+    height: 250px;
+    background-blend-mode: multiply;
+    background-color: darkseagreen;
+    position: relative;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    padding: 5%;
+  }
+  .section2 {
+      background-image: url(../imgs/section-h.jpg);
+  	  height: 400px;
+  		background-blend-mode: multiply;
+  		background-color: grey;
+  		padding: 5%;
+  }
+
+  .bucket1 {
+    background-color: darkseagreen;
+    background-image: url(../imgs/section-g.jpg);
+    background-blend-mode: multiply;
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .bucket2 {
+    background-color: darkseagreen;
+    background-image: url(../imgs/section-g.jpg);
+    background-blend-mode: multiply;
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .bucket3 {
+    background-color: darkseagreen;
+    background-image: url(../imgs/section-g.jpg);
+    background-blend-mode: multiply;
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .buckets {
+    margin: 1%;
   }
   .section3 {
     background-image: url(../imgs/5ever.gif);
@@ -171,4 +273,13 @@ a {
     background-repeat: no-repeat;
     background-attachment: inherit;
     padding: 5%;
+  }
+  .sectionf {
+    background-image: url(../imgs/section-h.jpg);
+	  height: 200px;
+		background-blend-mode: multiply;
+		background-color: grey;
+		padding: 5%;
+  }
+
 }

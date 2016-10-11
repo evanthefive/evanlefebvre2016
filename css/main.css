@@ -29,7 +29,9 @@ header {
   z-index: 2;
   background-color: grey;
 }
-
+header:hover {
+  background-color: darkseagreen;
+}
 
 .navigation {
   margin-right: 10%;
@@ -46,6 +48,10 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
+  opacity: .5;
+}
+.inner:hover {
+  opacity: 1;
 }
 .icons {
   padding-top: 2rem;
@@ -124,7 +130,9 @@ a {
   background-repeat:no-repeat;
 	padding: 5%;
 }
-
+.section1:hover {
+  background-color: grey;
+}
 .section2 {
   background-image: url(../imgs/section-h.jpg);
   height: 300px;

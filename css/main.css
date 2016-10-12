@@ -29,9 +29,6 @@ header {
   z-index: 2;
   background-color: grey;
 }
-header:hover {
-  background-color: darkseagreen;
-}
 
 .navigation {
   margin-right: 10%;
@@ -49,35 +46,39 @@ header:hover {
   padding-right: 5%;
   position: relative;
 }
-
-.icons {
-  padding-top: 2rem;
+.socials {
+  margin: auto;
+  min-width: 4rem;
+  max-width: 6rem;
+  width: 24%;
+  margin: 3%;
 }
-.icon1 {
-  z-index: 2;
-  margin-left: 15%;
-  max-width: 4rem;
+.bio {
   float: left;
-  opacity: .5;
 }
-.icon1:hover {
-  opacity: 1;
+.cntc {
+  margin: 5%;
+  min-width: 2rem;
+  max-width: 6rem;
+  width: 4rem;
+  margin-left: 3%;
+  margin-right: 3%;
 }
-.icon2 {
+.icons {
+  text-align: center;
+  padding-top: 3rem;
+}
+.iconsg {
+  text-align: center;
+  float: left;
+}
+.icon {
   z-index: 2;
-  margin-right: 15%;
-  max-width: 4rem;
-  float: right;
   opacity: .5;
+  display: inline;
 }
-.icon2:hover {
+.icon:hover {
   opacity: 1;
-}
-.insta {
-  width: 150%;
-}
-.vimeo {
-  width: 150%;
 }
 h5 {
   display: none;
@@ -125,7 +126,6 @@ a {
   background-attachment:fixed;    /* this keeps the background in place */
   background-size:100% 100%;
   background-repeat:no-repeat;
-	padding: 5%;
 }
 .section1:hover {
   background-color: grey;
@@ -187,7 +187,7 @@ a {
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
-	  height: 400px;
+	  height: 250px;
 		background-blend-mode: multiply;
 		background-color: grey;
 		padding: 5%;
@@ -198,28 +198,14 @@ a {
 	h1 {
 		  font-size: 2.5rem;
 	}
+  .cntc {
+    width: 3rem;
+  }
   .icons {
-    margin-top: 3rem;
+    padding-top: 5rem;
   }
-  .icon1 {
-    z-index: 2;
-    margin-left: 15%;
-    max-width: 4rem;
-    float: left;
-    opacity: .5;
-  }
-  .icon2 {
-    z-index: 2;
-    margin-right: 15%;
-    max-width: 4rem;
-    float: right;
-    opacity: .5;
-  }
-  .insta {
-    width: 100%;
-  }
-  .vimeo {
-    width: 100%;
+  .iconsg {
+    float: none;
   }
   .section1 {
     height: 250px;
@@ -230,7 +216,6 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: inherit;
-    padding: 5%;
   }
   .section2 {
       background-image: url(../imgs/section-h.jpg);

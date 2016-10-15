@@ -50,13 +50,15 @@ header {
   margin: auto;
   min-width: 4rem;
   max-width: 6rem;
-  width: 24%;
+  width: 16%;
   margin: 3%;
 }
 .buckets {
   height: 100%;
   background-color: darkseagreen;
   width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
   display: inline-block
 }
 .lightbox {

@@ -41,7 +41,7 @@ h2 {
   text-align: left;
   letter-spacing: 1.25px;
   color: #fff;
-  max-width: 440px;
+  max-width: 470px;
   text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
 }
 h4 {
@@ -86,7 +86,7 @@ a {
   margin: 3%;
 }
 .buckets {
-  height: 100%;
+  height: 95%;
   background-color: darkseagreen;
   width: 30%;
   margin-left: 5px;
@@ -180,7 +180,7 @@ a {
 }
 .section2 {
   background-image: url(../imgs/section-h.jpg);
-  height: 300px;
+  height: 400px;
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
@@ -250,7 +250,7 @@ a {
 		padding: 5%;
   }
   .buckets {
-    height: 30%;
+    height: 26%;
     background-color: darkseagreen;
     width: 100%;
     margin-bottom: 1rem;

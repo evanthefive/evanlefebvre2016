@@ -100,7 +100,7 @@ header {
   padding-top: 3rem;
 }
 .iconsg {
-  text-align: center;
+  text-align: left;
   float: left;
 }
 .icon {
@@ -140,6 +140,7 @@ h5 {
 h6 {
   text-align: center;
   color: #fff;
+  letter-spacing: 2px;
 }
 a {
   text-decoration: none;
@@ -216,6 +217,7 @@ a {
     padding-top: 5rem;
   }
   .iconsg {
+    text-align: center;
     float: none;
   }
   .section1 {

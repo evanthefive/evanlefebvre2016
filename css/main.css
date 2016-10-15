@@ -17,19 +17,51 @@ body {
 }
 
 * {
-	  box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
   height: 500px;
   background-image: url(../imgs/section-i.jpg);
   background-blend-mode: multiply;
-  background-size: 120% 100%;
+  background: contain;
   position: relative;
   z-index: 2;
   background-color: grey;
 }
-
+h1 {
+  width: 100%;
+  color: #eee;
+  font-weight: 800;
+  font-size: 3rem;
+}
+h2 {
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: left;
+  letter-spacing: 1.25px;
+  color: #fff;
+  max-width: 440px;
+  text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
+}
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+	color: #fff;
+	text-shadow: 2px 2px 17px #000, 2px 2px 30px #000;
+}
+h5 {
+  display: none;
+}
+h6 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}
+a {
+  text-decoration: none;
+}
 .navigation {
   margin-right: 10%;
 }
@@ -61,6 +93,15 @@ header {
   margin-right: 5px;
   display: inline-block
 }
+
+.thumbnail {
+  opacity: 1;
+}
+
+.thumbnail:hover {
+  opacity: .5;
+}
+
 .lightbox {
 	display: none;
 
@@ -107,46 +148,13 @@ header {
 }
 .icon {
   z-index: 2;
-  opacity: .5;
+  opacity: 1;
   display: inline;
 }
 .icon:hover {
-  opacity: 1;
+  opacity: .5;
 }
 
-h1 {
-  width: 100%;
-  color: #eee;
-  font-weight: 800;
-  font-size: 3rem;
-}
-h2 {
-  font-weight: 200;
-  font-size: 1rem;
-  text-align: left;
-  letter-spacing: 1.25px;
-  color: #fff;
-  max-width: 440px;
-  text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
-}
-h4 {
-  font-weight: 400;
-  font-size: 2rem;
-  margin: 0;
-	color: #fff;
-	text-shadow: 2px 2px 17px #000, 2px 2px 30px #000;
-}
-h5 {
-  display: none;
-}
-h6 {
-  text-align: center;
-  color: #fff;
-  letter-spacing: 2px;
-}
-a {
-  text-decoration: none;
-}
 .backtop {
   position: fixed;
   z-index: 2;
@@ -183,25 +191,25 @@ a {
 }
 
 .section3 {
-    background-image: url(../imgs/5ever.gif);
-    height: 250px;
-    background-blend-mode: multiply;
-    background-color: darkseagreen;
-    position:relative;
-    z-index:1;
-    width:100%;
-    background-attachment:fixed;    /* this keeps the background in place */
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    padding: 5%;
+  background-image: url(../imgs/5ever.gif);
+  height: 250px;
+  background-blend-mode: multiply;
+  background-color: darkseagreen;
+  position:relative;
+  z-index:1;
+  width:100%;
+  background-attachment:fixed;    /* this keeps the background in place */
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  padding: 5%;
 }
 
 .section4 {
-    background-image: url(../imgs/section-j.jpg);
-	  height: 300px;
-		background-blend-mode: multiply;
-		background-color: grey;
-		padding: 5%;
+  background-image: url(../imgs/section-j.jpg);
+  height: 300px;
+	background-blend-mode: multiply;
+	background-color: grey;
+	padding: 5%;
 }
 .creds {
   background-color: darkseagreen;
@@ -233,17 +241,18 @@ a {
     background-attachment: inherit;
   }
   .section2 {
-      background-image: url(../imgs/section-h.jpg);
-  	  height: 400px;
-  		background-blend-mode: multiply;
-  		background-color: grey;
-  		padding: 5%;
+    background-image: url(../imgs/section-h.jpg);
+	  height: 400px;
+		background-blend-mode: multiply;
+		background-color: grey;
+		padding: 5%;
   }
   .buckets {
     height: 30%;
     background-color: darkseagreen;
     width: 100%;
     margin-bottom: 1rem;
+    margin-left: 0;
     display: flex;
   }
 

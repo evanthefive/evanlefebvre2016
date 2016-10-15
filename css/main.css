@@ -144,33 +144,7 @@ a {
 	background-color: grey;
 	padding: 5%;
 }
-.bucket1 {
-  background-color: darkseagreen;
-  background-image: url(../imgs/section-g.jpg);
-  background-blend-mode: multiply;
-  width: 30%;
-  height: 100%;
-  float: left;
-}
-.bucket2 {
-  background-color: darkseagreen;
-  background-image: url(../imgs/section-g.jpg);
-  background-blend-mode: multiply;
-  width: 30%;
-  height: 100%;
-  float: left;
-}
-.bucket3 {
-  background-color: darkseagreen;
-  background-image: url(../imgs/section-g.jpg);
-  background-blend-mode: multiply;
-  width: 30%;
-  height: 100%;
-  float: left;
-}
-.buckets {
-  margin: 1%;
-}
+
 .section3 {
     background-image: url(../imgs/5ever.gif);
     height: 250px;
@@ -225,33 +199,7 @@ a {
   		padding: 5%;
   }
 
-  .bucket1 {
-    background-color: darkseagreen;
-    background-image: url(../imgs/section-g.jpg);
-    background-blend-mode: multiply;
-    width: 30%;
-    height: 100%;
-    float: left;
-  }
-  .bucket2 {
-    background-color: darkseagreen;
-    background-image: url(../imgs/section-g.jpg);
-    background-blend-mode: multiply;
-    width: 30%;
-    height: 100%;
-    float: left;
-  }
-  .bucket3 {
-    background-color: darkseagreen;
-    background-image: url(../imgs/section-g.jpg);
-    background-blend-mode: multiply;
-    width: 30%;
-    height: 100%;
-    float: left;
-  }
-  .buckets {
-    margin: 1%;
-  }
+
   .section3 {
     background-image: url(../imgs/5ever.gif);
     height: 250px;

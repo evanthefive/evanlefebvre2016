@@ -53,6 +53,12 @@ header {
   width: 24%;
   margin: 3%;
 }
+.buckets {
+  height: 100%;
+  background-color: pink;
+  width: 30%;
+  display: inline-block
+}
 .bio {
   float: left;
 }
@@ -60,7 +66,7 @@ header {
   margin: 5%;
   min-width: 2rem;
   max-width: 6rem;
-  width: 4rem;
+  width: 3rem;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -98,7 +104,7 @@ h2 {
   max-width: 440px;
   text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
 }
-h3 {
+h4 {
   font-weight: 400;
   font-size: 2rem;
   margin: 0;
@@ -136,6 +142,7 @@ a {
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
+  text-align: center;
 }
 .sectionf {
   background-image: url(../imgs/section-h.jpg);
@@ -161,7 +168,7 @@ a {
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
-	  height: 250px;
+	  height: 270px;
 		background-blend-mode: multiply;
 		background-color: grey;
 		padding: 5%;
@@ -198,7 +205,12 @@ a {
   		background-color: grey;
   		padding: 5%;
   }
-
+  .buckets {
+    height: 30%;
+    background-color: darkseagreen;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
   .section3 {
     background-image: url(../imgs/5ever.gif);

@@ -22,7 +22,7 @@ body {
 
 header {
   height: 500px;
-  background-image: url(../imgs/lefride.gif);
+  background-image: url(../imgs/section-i.jpg);
   background-blend-mode: multiply;
   background-size: 120% 100%;
   position: relative;
@@ -70,7 +70,9 @@ header {
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
 }
 
 .lightbox img {
@@ -109,14 +111,12 @@ header {
 .icon:hover {
   opacity: 1;
 }
-h5 {
-  display: none;
-}
+
 h1 {
-	  width: 100%;
-	  color: #eee;
-	  font-weight: 800;
-	  font-size: 3rem;
+  width: 100%;
+  color: #eee;
+  font-weight: 800;
+  font-size: 3rem;
 }
 h2 {
   font-weight: 200;
@@ -133,6 +133,13 @@ h4 {
   margin: 0;
 	color: #fff;
 	text-shadow: 2px 2px 17px #000, 2px 2px 30px #000;
+}
+h5 {
+  display: none;
+}
+h6 {
+  text-align: center;
+  color: #fff;
 }
 a {
   text-decoration: none;
@@ -155,9 +162,6 @@ a {
   background-attachment:fixed;    /* this keeps the background in place */
   background-size:100% 100%;
   background-repeat:no-repeat;
-}
-.section1:hover {
-  background-color: grey;
 }
 .section2 {
   background-image: url(../imgs/section-h.jpg);
@@ -191,12 +195,15 @@ a {
 
 .section4 {
     background-image: url(../imgs/section-j.jpg);
-	  height: 270px;
+	  height: 300px;
 		background-blend-mode: multiply;
 		background-color: grey;
 		padding: 5%;
 }
-
+.creds {
+  background-color: darkseagreen;
+  padding: 1px;
+}
 @media screen and (max-width: 768px) {
 
 	h1 {

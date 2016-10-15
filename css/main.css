@@ -12,8 +12,8 @@ html {
   text-size-adjust: 100%;
 }
 body {
-	  font-family: sans-serif;
-    margin: 0;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 * {
@@ -58,6 +58,29 @@ header {
   background-color: darkseagreen;
   width: 30%;
   display: inline-block
+}
+.lightbox {
+	display: none;
+
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+  padding: 5%;
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+.lightbox:target {
+	outline: none;
+	display: block;
 }
 .bio {
   float: left;
@@ -210,6 +233,7 @@ a {
     background-color: darkseagreen;
     width: 100%;
     margin-bottom: 1rem;
+    display: flex;
   }
 
   .section3 {

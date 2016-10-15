@@ -165,7 +165,7 @@ a {
 .section1 {
   background-image: url(../imgs/masthead.jpg);
   height: 250px;
-	background-blend-mode: multiply;
+	background-blend-mode: multiply;;;
 	background-color: darkseagreen;
 	position:relative;
   z-index:1;
@@ -232,8 +232,6 @@ a {
   }
   .section1 {
     height: 250px;
-    background-blend-mode: multiply;
-    background-color: darkseagreen;
     position: relative;
     width: 100%;
     background-size: 100% 100%;

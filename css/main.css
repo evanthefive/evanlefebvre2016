@@ -24,7 +24,7 @@ header {
   height: 500px;
   background-image: url(../imgs/section-i.jpg);
   background-blend-mode: multiply;
-  background: contain;
+  background-size: cover;
   position: relative;
   z-index: 2;
   background-color: grey;
@@ -42,14 +42,12 @@ h2 {
   letter-spacing: 1.25px;
   color: #fff;
   max-width: 470px;
-  text-shadow: 2px 2px 6px #000, 2px 2px 6px #000, 0px 2px 0px #fff;
 }
 h4 {
   font-weight: 400;
   font-size: 2rem;
   margin: 0;
 	color: #fff;
-	text-shadow: 2px 2px 17px #000, 2px 2px 30px #000;
 }
 h5 {
   display: none;
@@ -58,6 +56,12 @@ h6 {
   text-align: center;
   color: #fff;
   letter-spacing: 2px;
+}
+p {
+  color: #fff;
+  max-width: 520px;
+  display: inline-block;
+  letter-spacing: 1px;
 }
 a {
   text-decoration: none;
@@ -92,6 +96,12 @@ a {
   margin-left: 5px;
   margin-right: 5px;
   display: inline-block
+}
+.lightboxdes {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  padding: 5%;
 }
 
 .thumbnail {
@@ -175,12 +185,13 @@ a {
   z-index:1;
   width:100%;
   background-attachment:fixed;    /* this keeps the background in place */
-  background-size:100% 100%;
+  background-size: cover;
   background-repeat:no-repeat;
 }
 .section2 {
   background-image: url(../imgs/section-h.jpg);
   height: 400px;
+  background-size: cover;
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
@@ -189,6 +200,7 @@ a {
 .sectionf {
   background-image: url(../imgs/section-h.jpg);
   height: 300px;
+  background-size: cover;
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
@@ -197,6 +209,7 @@ a {
 .section3 {
   background-image: url(../imgs/5ever.gif);
   height: 250px;
+  background-size: cover;
   background-blend-mode: multiply;
   background-color: darkseagreen;
   position:relative;
@@ -211,6 +224,7 @@ a {
 .section4 {
   background-image: url(../imgs/section-j.jpg);
   height: 300px;
+  background-size: cover;
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
@@ -249,14 +263,6 @@ a {
 		background-color: grey;
 		padding: 5%;
   }
-  .buckets {
-    height: 26%;
-    background-color: darkseagreen;
-    width: 100%;
-    margin-bottom: 1rem;
-    margin-left: 0;
-    display: flex;
-  }
 
   .section3 {
     background-image: url(../imgs/5ever.gif);
@@ -276,6 +282,17 @@ a {
 		background-blend-mode: multiply;
 		background-color: grey;
 		padding: 5%;
+  }
+
+}
+@media screen and (max-width: 1080px) {
+  .buckets {
+    height: 26%;
+    background-color: darkseagreen;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    display: flex;
   }
 
 }

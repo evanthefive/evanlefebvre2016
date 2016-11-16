@@ -21,13 +21,12 @@ body {
 }
 
 header {
+  background-image: url(../imgs/allgood.jpg);
   height: 500px;
-  background-image: url(../imgs/section-i.jpg);
-  background-blend-mode: multiply;
   background-size: cover;
-  position: relative;
-  z-index: 2;
-  background-color: grey;
+	background-blend-mode: multiply;
+	background-color: grey;
+	padding: 5%;
 }
 h1 {
   width: 100%;
@@ -89,6 +88,7 @@ a {
   width: 16%;
   margin: 3%;
 }
+
 .buckets {
   height: 95%;
   background-color: darkseagreen;

@@ -27,6 +27,8 @@ header {
 	background-blend-mode: multiply;
 	background-color: grey;
 	padding: 5%;
+  position: relative;
+  z-index: 2;
 }
 h1 {
   width: 100%;

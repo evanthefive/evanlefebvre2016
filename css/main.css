@@ -178,6 +178,10 @@ a {
   right: 0px;
   opacity: .75;
 }
+.video {
+  width: 80%;
+  height: 50%;
+}
 .section1 {
   background-image: url(../imgs/5ever.gif);
   height: 250px;

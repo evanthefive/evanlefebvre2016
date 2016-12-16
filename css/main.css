@@ -44,14 +44,27 @@ h2 {
   color: #fff;
   max-width: 470px;
 }
+h3 {
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #000;
+  max-width: 470px;
+  display: inline-block;
+  margin-top: 5%;
+}
 h4 {
   font-weight: 400;
   font-size: 2rem;
   margin: 0;
-	color: #fff;
+	color: #000;
 }
 h5 {
-  display: none;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+	color: #fff;
 }
 h6 {
   text-align: center;
@@ -119,15 +132,17 @@ a {
 
 	position: fixed;
 	z-index: 999;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	text-align: center;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.9);
+	background: rgba(255,255,255,1);
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .lightbox img {
@@ -142,6 +157,9 @@ a {
 .exit {
   float: left;
   transform: rotate(-90deg);
+}
+.iron {
+  max-width: 70%;
 }
 .bio {
   float: left;
